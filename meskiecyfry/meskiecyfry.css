@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'gt';
+    src: url('../fonts/gt.w34') format('woff2');
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(circle at 50% 50%, rgb(255, 255, 255) 0%, rgba(255, 235, 240, 0.8) 25%, rgba(255, 220, 230, 0.6) 50%, rgb(255, 255, 255) 75%, rgb(240, 240, 240) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: "liga", "kern";
+    -webkit-text-stroke: 0.4px;
+}
+
+.container {
+    background: linear-gradient(to bottom right, 
+    rgba(230, 245, 255, 1) 0%,  
+    rgba(200, 230, 255, 0.9) 15%,  
+    rgba(170, 215, 255, 0.8) 30%,  
+    rgba(140, 200, 255, 0.7) 45%,  
+    rgba(110, 185, 255, 0.6) 60%,  
+    rgba(80, 170, 255, 0.5) 75%,  
+    rgba(50, 155, 255, 0.4) 85%,  
+    rgba(30, 140, 255, 0.3) 95%,  
+    rgba(10, 125, 255, 0.2) 100%
+);
+border: 1px solid hsl(0, 0%, 88.7%);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 36px;
+    color: #fff;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+label {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 10px;
+    display: block;
+}
+
+input[type="number"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 0.3px solid hsl(0, 0%, 88.7%);
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 0.3px solid hsl(0, 0%, 88.7%);
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background: linear-gradient(to bottom left, 
+    rgba(230, 245, 255, 1) 0%,  
+    rgba(200, 230, 255, 0.9) 15%,  
+    rgba(170, 215, 255, 0.8) 30%,  
+    rgba(140, 200, 255, 0.7) 45%,  
+    rgba(110, 185, 255, 0.6) 60%,  
+    rgba(80, 170, 255, 0.5) 75%,  
+    rgba(50, 155, 255, 0.4) 85%,  
+    rgba(30, 140, 255, 0.3) 95%,  
+    rgba(10, 125, 255, 0.2) 100%
+);
+    color: #fff;
+    border: 0.3px solid hsl(0, 0%, 88.7%);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#results {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #fff;
+    max-height: 400px; 
+    overflow-y: auto; 
+}
+
+#letterValues {
+    background: linear-gradient(to bottom left, 
+    rgba(230, 245, 255, 1) 0%,  
+    rgba(200, 230, 255, 0.9) 15%,  
+    rgba(170, 215, 255, 0.8) 30%,  
+    rgba(140, 200, 255, 0.7) 45%,  
+    rgba(110, 185, 255, 0.6) 60%,  
+    rgba(80, 170, 255, 0.5) 75%,  
+    rgba(50, 155, 255, 0.4) 85%,  
+    rgba(30, 140, 255, 0.3) 95%,  
+    rgba(10, 125, 255, 0.2) 100%
+);
+
+    border-radius: 10px;
+    border: 1px solid hsl(0, 0%, 88.7%);
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+#letterValues h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    color: #fff;
+}
+
+#letterValues {
+    color: #fff;
+}
+
+.footer {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    font-size: 16px;
+    color: #9e9292;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.footer a.bbwebdevelop {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
